@@ -1,10 +1,10 @@
 # demo_reel
 Code examples for public viewing
 
-###utah_air_tools.py
+####utah_air_tools.py
 Functions to define and determine which 10 mile by 10 mile grid in Utah that an input lat/long pair represent.  Built for use in Utah Hadoop User Group's air quality project.
 
-###get_weather_data.py
+##get_weather_data.py
 Using forecast.io API, extracts 20 elements of weather data from site for given lat/log and writes out to .csv file.  Also calculates implied moon phase. 
 
 ###spark_tmr_demo.py
