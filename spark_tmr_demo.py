@@ -1,4 +1,8 @@
 #!/usr/bin/python
+"""
+This was built as a demo for Google Cloud Platform's Dataproc.  It can be submitted as a Pyspark job
+in Dataproc, provided you have access to the data file gs://thomtect/flightinfo
+"""
 import pyspark
 sc = pyspark.SparkContext()
 
