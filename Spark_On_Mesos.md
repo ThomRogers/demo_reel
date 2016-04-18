@@ -1,6 +1,7 @@
 **Spark Cluster on Mesos (GCE)**
 
-*running pySpark*
+
+*Please note: The VAST majority of this material is taken from Paco Nathan's excellent blog post of 09-10-2014.  http://ceteri.blogspot.com/2014/09/spark-atop-mesos-on-google-cloud.html  The original post spun up a v1.0.1 Scala Spark instance and I have modified it to show how to run pySpark as well as SparkR using Spark 1.4.1.   I also added a section to cut back the console messaging.  Thom Rogers 08-31-2015* 
 
 
 1.  **Create project in Google Cloud Platform**
@@ -10,7 +11,7 @@
     2.  Once created, be sure to click on the Billing link, enable
         billing and arrange payment details.
 
-\
+
 
 2.  **Launch a Mesosphere cluster**
 
@@ -30,7 +31,7 @@
     5.  Click the shiny purple Launch Cluster button. *It will take a
         few minutes for those VMs to launch and get configured*
 
-\
+
 
 3.  **Set up Spark**
 
@@ -114,19 +115,19 @@
 
 ./bin/spark-shell --master mesos://\$MESOS\_MASTER:5050
 
-\
+
 
 2.  Python
 
 ./bin/pyspark --master mesos://\$MESOS\_MASTER:5050
 
-\
+
 
 3.  R
 
 ./bin/sparkR –master mesos://\$MESOS\_MASTER:5050
 
-\
+
 
 4.  Verify cluster operation – after launching Spark (pySpark), at the
     prompt, enter these two lines (these are for the pySpark API):
