@@ -138,6 +138,6 @@
 
 the commands above create a list of 10,000 consecutive numbers and
 parallelizes them across the cluster as an RDD. It then sums them
-together and prints the result, **5,000,5,000**to the screen
+together and prints the result, **50,005,000**to the screen
 
 
