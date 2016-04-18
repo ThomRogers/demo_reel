@@ -1,7 +1,7 @@
 **Spark Cluster on Mesos (GCE)**
 
 
-*Please note: The VAST majority of this material is taken from Paco Nathan's excellent blog post of 09-10-2014.  http://ceteri.blogspot.com/2014/09/spark-atop-mesos-on-google-cloud.html  The original post spun up a v1.0.1 Scala Spark instance and I have modified it to show how to run pySpark as well as SparkR using Spark 1.4.1.   I also added a section to cut back the console messaging.  Thom Rogers 08-31-2015* 
+*Please note: The VAST majority of this material is taken from Paco Nathan's excellent blog post of 09-10-2014.  http://ceteri.blogspot.com/2014/09/spark-atop-mesos-on-google-cloud.html  The original post spun up a v1.0.1 Scala Spark instance.  I have modified the procedure to show how to run pySpark as well as SparkR using Spark 1.4.1.   I also added a section to cut back the console messaging.  Thom Rogers 08-31-2015* 
 
 
 1.  **Create project in Google Cloud Platform**
